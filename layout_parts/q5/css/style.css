@@ -2,4 +2,133 @@
 
 /* 回答はここに書いてね */
 
+.contens {
+  background-color: #ecf1f2;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.boxes {
+ width:100px;
+ height: 100px;
+}
+
+.for1 {
+  position: absolute;
+  background-color: #ffefd3;
+  top: 40px;
+  left: 200px;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 190%;
+}
+
+.for1::before {
+  content: "";
+  background-color: #ffefd3;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.for2 {
+  position: absolute;
+  background-color: #7084de;
+  top: 120px;
+  left: 280px;
+  text-align: center;
+  line-height: 100px;
+  z-index: 2;
+  font-weight: bold;
+  font-size: 190%;
+}
+
+.for3 {
+  position: absolute;
+  background-color: #d0ecea;
+  top: 200px;
+  left: 360px;
+  text-align: center;
+  line-height: 100px;
+  z-index: 3;
+  font-weight: bold;
+  font-size: 190%;
+}
+
+.for4 {
+  position: absolute;
+  background-color: #8b7a5e;
+  top: 280px;
+  left: 280px;
+  text-align: center;
+  line-height: 100px;
+  z-index: 4;
+  font-weight: bold;
+  font-size: 190%;
+}
+
+.for5 {
+  position: absolute;
+  background-color: #9fd6d2;
+  top: 360px;
+  left: 200px;
+  text-align: center;
+  line-height: 100px;
+  z-index: 5;
+  font-weight: bold;
+  font-size: 190%;
+}
+
+.for6 {
+  position: absolute;
+  background-color: #fffee4;
+  top: 280px;
+  left: 120px;
+  text-align: center;
+  line-height: 100px;
+  z-index: 6;
+  font-weight: bold;
+  font-size: 190%;
+}
+
+.for7 {
+  position: absolute;
+  background-color: #deae70;
+  top: 200px;
+  left: 40px;
+  text-align: center;
+  line-height: 100px;
+  z-index: 7;
+  font-weight: bold;
+  font-size: 190%;
+}
+
+.for8 {
+  position: absolute;
+  background-color: #de70cf;
+  top: 120px;
+  left: 120px;
+  text-align: center;
+  line-height: 100px;
+  z-index: 8;
+  font-weight: bold;
+  font-size: 190%;
+}
+
+.for9 {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: #2b69a3;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 190%;
+}
 /* 回答はここに書いてね */
